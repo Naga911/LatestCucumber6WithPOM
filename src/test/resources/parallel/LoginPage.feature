@@ -5,10 +5,12 @@ Given user is on login page
 When user gets the title of the page
 Then page title should be "Login - My Store"
 
+@skip
 Scenario: Forgot Password link
 Given user is on login page
 Then forgot your password link should be displayed
 
+ @skip
 Scenario: Login with correct credentials
 Given user is on login page
 When user enters username "dec2020secondbatch@gmail.com"

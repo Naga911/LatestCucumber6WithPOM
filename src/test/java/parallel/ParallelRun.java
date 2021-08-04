@@ -9,7 +9,8 @@ import io.cucumber.testng.CucumberOptions;
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/"
-				}, 
+				},
+		tags = "not @skip",
 		monochrome = true,
 		glue = { "parallel" },
 		features = { "src/test/resources/parallel/loginPage.feature" }

@@ -1,21 +1,21 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "85b8c41c-3b80-47d9-aaa2-58290e349eab",
-    "feature": "Contact Us Feature",
-    "scenario": "Contact Us scenario with different set of data",
-    "start": 1627294983156,
-    "group": 1,
+    "id": "7a25d1ac-2524-4fb9-95db-1cf9f3f7ec78",
+    "feature": "Login page feature",
+    "scenario": "Login page title",
+    "start": 1628081493225,
+    "group": 17,
     "content": "",
     "tags": "",
-    "end": 1627294983321,
-    "className": "undefined"
+    "end": 1628081516133,
+    "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
-    "id": 1,
-    "content": "Thread[main,5,main]"
+    "id": 17,
+    "content": "Thread[TestNG-PoolService-0,5,main]"
   }
 ]);
 });
